@@ -1,0 +1,418 @@
+:root {
+        --title-color: #2E2F42;
+        --logo-color: #4D5AE5;
+        --main-text-color: #F4F4FD;
+        --second-text-color: #434455;
+}
+
+body {
+        font-family: 'Roboto', sans-serif;
+        color: #434455;
+        background-color: #FFFFFF;
+}
+
+/* ----нижче убирає підчеркування-----*/
+
+p,h1,h2,h3,h4,h5,h6 {
+        margin-top: 0;
+        margin-bottom: 0;
+}
+
+.link {text-decoration: none;}
+
+.list {list-style-type: none;}
+
+img {display: block;}
+
+/* ----------------header-----*/
+.header {border-bottom: 1px solid #e7e9fc;}
+
+.container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+}
+
+.headercont {
+        display: flex;
+        align-items: center;}
+
+
+
+.container-header {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;}
+
+.header-logo {
+        font-family: 'Raleway', sans-serif;
+        /* ----нижче товщина (жирність) шрифта-----*/
+        font-weight: 800;
+        font-size: 18px;
+        margin-right: 76px;
+        /* ----нижче висота рядка вимір-ся у відносних величинах вимірювання----- */
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+}
+
+.header-logo span {color: #2E2F42;}
+
+.headercolortext {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: #F4F4FD;
+}
+
+.header-menu {
+        padding-left: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+}
+
+.header-address {
+        margin-left: auto;
+        font-style: normal;
+}
+
+.header-menu-link {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        cursor: pointer;
+        display: block;
+        padding: 24px 0;
+        color: var(--title-color);
+}
+
+
+.header-menu-link:hover {color: #404bbf;}
+
+.header-menu-link:focus {color: #404bbf;}
+
+.header-menu-contact {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        display: flex;
+        color: var(--second-text-color);
+}
+
+.header-menu-contact:hover {color: #404bbf;}
+
+.header-menu-contact:focus {color: #404bbf;}
+
+/** -------------------Hero---------------- */
+
+.hero {
+        background-color: #2E2F42;
+        padding-top: 188px;
+        padding-bottom: 188px;
+}
+
+.hero-title {
+        max-width: 496px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        margin-left: auto;
+        margin-right: auto;
+        color: #FFFFFF;
+}
+
+.hero-btn {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
+        color: #FFFFFF;
+        background-color: #4D5AE5;
+}
+
+.hero-btn:hover {background-color: #404BBF;}
+
+.hero-btn:focus {background-color: #404BBF;}
+
+/** -------------------Benefits------------ */
+.benefits-section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
+
+.benefits {
+        display: flex;
+        gap: 24px;
+        padding-left: 0;}
+
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+.benefits list {padding-left: 0;}
+
+.benefits-item {width: calc((100% - 72px) / 4);}
+
+.benefits-subtitle {
+        margin-bottom: 8px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        width: calc((100% - 48px)/3);
+        color: #2E2F42;
+}
+
+.benefits-item-text {
+        margin-bottom: 8px;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--second-text-color);
+}
+
+/**-----------------------Section3----------*/
+.electronica-section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
+
+.electronica-title {
+        margin-bottom: 72px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+
+.electronica {
+        padding-left: 0;
+        display: flex;
+        gap: 24px;
+}
+
+.tehnika {width: calc((100% - 48px) / 3);}
+
+/** -------------------Team------------ */
+.team {
+        padding: 120px 0 120px;
+        background-color: #F4F4FD;}
+
+.team-title {
+        margin-bottom: 72px;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+
+.team {
+        display: flex;
+        gap: 24px;}
+
+.team-item {
+        background-color: #FFFFFF;
+        border-radius: 0px 0px 4px 4px;}
+
+.container-team {padding: 32px 16px;}
+
+.team-subtitle {
+        margin-bottom: 8px;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.team-item-text {
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--second-text-color);
+}
+
+/** -------------------Footer---------------- */
+.footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: var(--title-color);
+}
+
+.footer-logo {
+        font-family: "Raleway", sans-serif;
+        /* ----нижче товщина (жирність) шрифта-----*/
+        font-weight: 800;
+        font-size: 18px;
+        /* ----нижче висота рядка вимір-ся у відносних величинах вимірювання----- */
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 16px;
+        color: #4D5AE5;
+}
+
+.footer-logo span {color: #F4F4FD;}
+
+.footercolortext {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: #F4F4FD;
+}
+
+.footer-text {
+        max-width: 264px;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--main-text-color);
+}
+
+/** -------------------Portfolio---------------- */
+
+.content {padding: 96px 0 120px 0;}
+
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+.portfpage {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-bottom: 72px;}
+
+.portfpage-btn {
+        padding: 12px 24px;
+        font-family: 'Roboto', sans-serif;
+        border: 1px solid #e7e9fc;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        gap: 24px;
+        color: var(--logo-color);
+        background-color: var(--main-text-color);
+}
+
+.portfpage-btn:hover {
+        color: #FFFFFF;
+        background-color: #404BBF;
+        border: 1px solid transparent;
+}
+
+.portfpage-btn:focus {
+        color: #FFFFFF;
+        background-color: #404BBF;
+        border: 1px solid transparent;
+}
+
+.portfcard {
+        padding-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+        margin-bottom: 72px;
+}
+
+.portfcards {width: calc((100% - 48px) / 3);}
+
+.portfolio {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--title-color);
+        margin-bottom: 8px;
+}
+
+.container-portfpage {
+        border: 1px solid #e7e9fc;
+        padding: 32px 16px;
+        border-top: none;
+        width: 360px;
+}
+
+.portfcontent {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--second-text-color);
+}
+
+    
+    
+
+
+
+
+
+
+
