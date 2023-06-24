@@ -331,21 +331,25 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
         color: var(--main-text-color);
 }
 
+.container-foot {
+        display: flex;
+        align-items: baseline;
+}
+
 .footer-text-soc {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--free-text-color);
-        margin-bottom: 16px;
-}
+        margin-bottom: 16px;}
 
-.footer-icons {
+.footer-icons-list {
 display: flex;
 gap: 16px;
 }
 
-.footer-soc {
+.footer-icons-title {
 width: 40px;
 height: 40px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
