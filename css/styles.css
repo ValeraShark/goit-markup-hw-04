@@ -337,12 +337,6 @@ margin-right: 120px;
         letter-spacing: 0.02em;
         color: var(--main-text-color);}
 
-.container-foot {
-width: 206px;
-        height: 80px;
-        margin-top: 12px;
-}
-
 .foot-soc-title {
                 font-weight: 500;
         font-size: 16px;
