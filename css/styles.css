@@ -327,6 +327,57 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
         color: var(--second-text-color);
 }
 
+/* -------------------------------------------clients----------------------------------------- */
+.client-section {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.container-client {
+
+}
+
+.clients-title {
+        font-size: 36px;
+        line-height: 1.11;
+        color: var(--title-color);      
+        margin-bottom: 72px;
+}
+
+.clients-list {
+        display: flex;
+        gap: 24px;
+}
+
+.clients-item {
+        width: calc((100% - 120px) / 6);
+        height: 88px;}
+
+
+.clients-link {
+        width: 100%;
+        height: 100%;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        fill: var(--accent-color)
+}
+
+
+.clients-link:hover {
+        border-color: #404bbf;
+        cursor: pointer;
+        fill: var(--accent-color);
+                }
+                
+.clients-link:focus {
+        border-color: #404bbf;
+        cursor: pointer;
+        fill: var(--accent-color);
+}
+
 /** -------------------Footer---------------- */
 .footer {
         padding-top: 100px;
