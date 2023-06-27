@@ -369,13 +369,13 @@ padding-bottom: 120px;
 .clients-link:hover {
         border-color: #404bbf;
         cursor: pointer;
-        fill: var(--accent-color);
+        color: var(--accent-color);
                 }
                 
 .clients-link:focus {
         border-color: #404bbf;
         cursor: pointer;
-        fill: var(--accent-color);
+        color: var(--accent-color);
 }
 
 /** -------------------Footer---------------- */
