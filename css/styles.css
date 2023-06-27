@@ -4,6 +4,7 @@
         --main-text-color: #F4F4FD;
         --second-text-color: #434455;
         --free-text-color:#FFFFFF;
+        --accent-color: #8e8f99;
        }
 
 body {
@@ -369,13 +370,13 @@ padding-bottom: 120px;
 .clients-link:hover {
         border-color: #404bbf;
         cursor: pointer;
-        color: var(--accent-color);
+        color: #404bbf;
                 }
                 
 .clients-link:focus {
         border-color: #404bbf;
         cursor: pointer;
-        color: var(--accent-color);
+        color: #404bbf;
 }
 
 /** -------------------Footer---------------- */
