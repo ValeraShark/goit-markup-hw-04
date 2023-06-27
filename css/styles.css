@@ -571,8 +571,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--second-text-color);
-}
+        color: var(--second-text-color);}
 
 /**----------------- Modal-----------*/
 
@@ -589,8 +588,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .is-hidden {
         opacity: 0;
         visibility: hidden;
-        pointer-events: none;
-}
+        pointer-events: none;}
 
 .modal {
         position: absolute;
@@ -619,19 +617,17 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
         border: 1px solid rgba(0, 0, 0, 0.1);
         padding: 0;
         cursor: pointer;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
-.modal-btt:hover,
+.modal-btt:hover {
+        background-color: #404bbf;
+        border: none;}
+
 .modal-btt:focus {
-        background-color: var(--color-knopka);
-        border: none;
-        fill: var(--free-text-color);
-}
+        background-color: #404bbf;
+        border: none;}
 
-.modal-icon {
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+.modal-icon {transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
     
     
