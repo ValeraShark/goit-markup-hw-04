@@ -104,7 +104,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
         color: var(--title-color);
         position: relative;
         
-                transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
 }
 
@@ -161,6 +161,7 @@ border-radius: 2px;
         letter-spacing: 0.02em;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 48px;
         color: #FFFFFF;
 }
 
@@ -195,7 +196,11 @@ border-radius: 2px;
 .benefits {
         display: flex;
         gap: 24px;
-        padding-left: 0;}
+        }
+.list {
+        margin: 0;
+        padding-left: 0;
+                }
 
 .visually-hidden {
         position: absolute;
@@ -235,7 +240,7 @@ border-radius: 2px;
 }
 
 .benefits-item-text {
-        margin-bottom: 8px;
+      
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -244,7 +249,7 @@ border-radius: 2px;
 
 /**-----------------------Section3----------*/
 .electronica-section {
-        padding-top: 120px;
+        padding-top: 0;
         padding-bottom: 120px;
 }
 
@@ -284,7 +289,7 @@ border-radius: 2px;
         color: #2E2F42;
 }
 
-.team {
+.teamlist {
         display: flex;
         gap: 24px;}
 
