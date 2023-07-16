@@ -601,6 +601,7 @@ padding-bottom: 120px;
 .portfcards {
         width: calc((100% - 48px) / 3);
         position: relative;
+        display: block;
 }
 
 .portfcards-cover-text {
