@@ -554,19 +554,11 @@ padding-bottom: 120px;
         justify-content: center;
         gap: 24px;
         margin-bottom: 72px;
-        
-}
-
-.container-portfpage {
-
         position: relative;
         overflow: hidden;
-
-        border: 1px solid #e7e9fc;
-        padding: 32px 16px;
-        border-top: none;
-        width: 360px;
 }
+
+
 
 .portfpage-btn {
         padding: 12px 24px;
