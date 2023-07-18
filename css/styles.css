@@ -605,7 +605,7 @@ padding-bottom: 120px;
 .portfcards {
         width: calc((100% - 48px) / 3);
         position: relative;
-    
+        overflow: hidden;
 }
 
 .portfcards-link {
@@ -627,14 +627,11 @@ padding-bottom: 120px;
 
 .portfcards-cover-text {
         position: absolute;
-        top: 0%;
-        left: 0%;
-        bottom:0%;
-        right:0%;
+        top: 0;
+        left: 0;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        left: 0;
         color: var(--free-text-color);
         background-color: #4d5ae5;
         height: 100%;
@@ -644,8 +641,9 @@ padding-bottom: 120px;
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfcards:hover .portfcards-cover-text {
-        transform: translateY(0);
+.portfcards-link:hover .portfcards-cover-text,
+.portfcards-link:focus .portfcards-cover-text {
+        transform: translateY(0%);
 }
 
 .portfolio {
