@@ -425,8 +425,16 @@ padding-bottom: 120px;
         color: #404bbf;
 }
 
-.clients-icon {
-        fill: currentColor;
+.clients-icon:hover {
+        border-color: #404bbf;
+        cursor: pointer;
+        color: #404bbf;
+}
+
+.clients-icon:focus {
+        border-color: #404bbf;
+        cursor: pointer;
+        color: #404bbf;
 }
 /** -------------------Footer---------------- */
 .footer {
@@ -665,8 +673,6 @@ padding-bottom: 120px;
         color: var(--title-color);
         margin-bottom: 8px;
 }
-
-
 
 .portfcontent {
         font-family: 'Roboto', sans-serif;
