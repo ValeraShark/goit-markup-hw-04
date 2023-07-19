@@ -554,7 +554,7 @@ padding-bottom: 120px;
         display: flex;
         justify-content: center;
         gap: 24px;
-        margin-bottom: 72px;
+        
         position: relative;
         overflow: hidden;
 }
@@ -604,7 +604,7 @@ padding-bottom: 120px;
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
-        margin-bottom: 72px;
+        
 }
 
 .portfcards {
@@ -650,6 +650,9 @@ padding-bottom: 120px;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
                 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
                 }
+.portf {
+        padding: 8px;
+}
 
 .portfolio {
         font-family: 'Roboto', sans-serif;
