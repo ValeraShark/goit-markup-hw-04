@@ -554,11 +554,14 @@ padding-bottom: 120px;
         display: flex;
         justify-content: center;
         gap: 24px;
-        margin: 72px;
+      
         position: relative;
         overflow: hidden;
 }
 
+.portfpage list {
+margin: 72px;
+}
 
 
 
