@@ -416,26 +416,16 @@ padding-bottom: 120px;
 .clients-link:hover {
         border-color: #404bbf;
         cursor: pointer;
-        color: #404bbf;
+        --color3: #404bbf;
                 }
                 
 .clients-link:focus {
         border-color: #404bbf;
         cursor: pointer;
-        color: #404bbf;
+        --color3: #404bbf;
 }
 
-.clients-icon:hover {
-        border-color: #404bbf;
-        cursor: pointer;
-        color: #404bbf;
-}
 
-.clients-icon:focus {
-        border-color: #404bbf;
-        cursor: pointer;
-        color: #404bbf;
-}
 /** -------------------Footer---------------- */
 .footer {
         padding-top: 100px;
